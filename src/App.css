@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root {
+  @apply bg-black text-white;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-horizontal {
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-rose-600 rounded-xl;
+}
+
+* {
+  scrollbar-width: 4px;
+  scrollbar-height: 8px;
+  scrollbar-color: #e11d48 black;
+}
+.task > ::-webkit-scrollbar-thumb {
+  @apply bg-sky-500 rounded-xl;
+}
+
+.task {
+  scrollbar-color: #0ea5e9 black;
+}
