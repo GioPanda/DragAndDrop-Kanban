@@ -102,10 +102,6 @@ const ColumnContainer = ({
          justify-between"
       >
         <div className="flex gap-2">
-          <div className="flex items-center justify-center px-2 py-1 text-sm rounded-full bg-mainBgColor">
-            0
-          </div>
-
           {!editMode && column.title}
           {editMode && (
             <>
