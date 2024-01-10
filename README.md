@@ -22,6 +22,8 @@ O projeto **Drag and Drop Kanban** é uma aplicação web construída utilizando
   
 ![Preview da aplicação](https://raw.githubusercontent.com/GioPanda/DragAndDrop-Kanban/main/Screenshot.png)
 
+![Link para testar a aplicação](https://drag-and-drop-kanban-brown.vercel.app/)
+
 
 ## Instalação e Uso
 
